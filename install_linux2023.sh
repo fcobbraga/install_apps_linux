@@ -1,6 +1,25 @@
 #!/bin/bash
 sudo apt install htop
 
+wait
+
+# manipular o desktop no elementary 
+wget https://github.com/calamityjoe87/desktopfolder/releases/download/v1.1.3-3/desktopfolder_1.1.3-3_amd64.deb
+
+wait
+
+sudo dpkg -i desktopfolder_1.1.3-3_amd64.deb
+
+wait 
+
+sudo apt install -f
+
+wait
+
+sudo dpkg -i desktopfolder_1.1.3-3_amd64.deb
+
+wait
+
 #sudo apt install pavucontrol
 
 # lembrar de mudar a senha para senha em branco (elementaryos)
