@@ -20,92 +20,92 @@ sudo dpkg -i desktopfolder_1.1.3-3_amd64.deb
 
 wait
 
-#sudo apt install pavucontrol
+sudo apt install pavucontrol
 
 # lembrar de mudar a senha para senha em branco (elementaryos)
-#sudo apt install seahorse
+sudo apt install seahorse
 
-#sudo apt purge openjdk*
+sudo apt purge openjdk*
 
-#wait
+wait
 
-#wget https://download.oracle.com/java/18/archive/jdk-18.0.2.1_linux-x64_bin.deb
+wget https://download.oracle.com/java/18/archive/jdk-18.0.2.1_linux-x64_bin.deb
 
-#wait
+wait
 
-#sudo dpkg -i jdk-18.0.2.1_linux-x64_bin.deb
+sudo dpkg -i jdk-18.0.2.1_linux-x64_bin.deb
 
-#wait
+wait
 
-#wget https://download.oracle.com/java/17/archive/jdk-17.0.9_linux-x64_bin.deb
+wget https://download.oracle.com/java/17/archive/jdk-17.0.9_linux-x64_bin.deb
 
-#sudo dpkg -i jdk-17.0.9_linux-x64_bin.deb
+sudo dpkg -i jdk-17.0.9_linux-x64_bin.deb
 
-#wait
+wait
 
-#wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/121.0.1/linux-x86_64/pt-BR/firefox-121.0.1.tar.bz2
+wget https://download-installer.cdn.mozilla.net/pub/firefox/releases/121.0.1/linux-x86_64/pt-BR/firefox-121.0.1.tar.bz2
 
-#wait
+wait
 
-#tar xjf firefox-*.tar.bz2
+tar xjf firefox-*.tar.bz2
 
-#wait
+wait
 
-#mv firefox /opt
+mv firefox /opt
 
-#wait
+wait
 
-#ln -s /opt/firefox/firefox /usr/local/bin/firefox
+ln -s /opt/firefox/firefox /usr/local/bin/firefox
 
-#wait
+wait
 
-#wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox-linux/firefox.desktop -P /usr/share/applications
+wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox-linux/firefox.desktop -P /usr/share/applications
 
-#wait
+wait
 
-#sudo update-desktop-database
+sudo update-desktop-database
 
-#wait
+wait
 
-#wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
-#wait
+wait
 
-#wget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_120.0.2210.77-1_amd64.deb?brand=M102
+wget https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/microsoft-edge-stable_120.0.2210.77-1_amd64.deb?brand=M102
 
-#wait
+wait
 
-#sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 
-#wait
+wait
 
-#sudo apt install -f
+sudo apt install -f
 
-#wait
+wait
 
-#sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 
-#wait
+wait
 
-#sudo dpkg -i microsoft-edge-stable_*
+sudo dpkg -i microsoft-edge-stable_*
 
-#wait
+wait
 
-#sudo apt install ttf-mscorefonts-installer
+sudo apt install ttf-mscorefonts-installer
 
-#wait
+wait
 
-#sudo apt install folder-color gnome-sushi
+sudo apt install folder-color gnome-sushi
 
-#wait
+wait
 
-#sudo apt install gnome-tweaks
+sudo apt install gnome-tweaks
 
-#wait
+wait
 
-#sudo apt install plank
+sudo apt install plank
 
-#wait
+wait
 
 sudo apt install ubuntu-restricted-extras
 
@@ -113,7 +113,7 @@ wait
 
 sudo apt install conky-all
 
-wait 
+wait
 
 wget https://download.anydesk.com/linux/anydesk_6.3.0-1_amd64.deb
 
@@ -131,15 +131,15 @@ wget https://download.onlyoffice.com/install/desktop/editors/linux/onlyoffice-de
 
 wait
 
-#sudo dpkg -i onlyoffice-desktopeditors_amd64.deb
+sudo dpkg -i onlyoffice-desktopeditors_amd64.deb
 
-#wait
+wait
 
-#sudo apt install -f
+sudo apt install -f
 
-#wait
+wait
 
-#sudo apt install playonlinux
+sudo apt install playonlinux
 
 wait
 
@@ -194,7 +194,7 @@ wait
 #nodejs
 sudo apt install nodejs npm
 
-#wait
+wait
 
 # testar se deu certo antigo
 #wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
@@ -306,4 +306,6 @@ wait
 echo 'Verificar se o Docker Engine foi instalado com sucesso'
 sudo docker run hello-world
 
+wait
 
+sudo usermod -aG docker $USER
